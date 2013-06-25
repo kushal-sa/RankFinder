@@ -1,0 +1,162 @@
+body{
+
+font-family:Euphemia,Verdana;
+background:#333333;
+margin:0px;
+color:white;
+
+}
+
+div{
+margin:10px;
+
+}
+
+img{
+
+-webkit-transition: -webkit-transform 0.25s;
+
+margin:10px;
+transition: transform 0.25s;
+
+
+}
+
+img:hover{
+
+ -webkit-transform: rotate3d(1,1,0, 45deg);
+ transform: rotate3d(1,1,0, 45deg);
+
+
+
+}
+
+#master-container{
+overflow:auto;
+background:#e6e6e6;
+margin:auto;
+width:1200px;
+margin-top:50px;
+border-radius:10px;
+height:auto;
+}
+
+#header{
+
+overflow:auto;
+text-align:center;
+font-family:Margarosa;
+font-size:2em;
+color:#333333;	
+
+}
+
+#header h1{
+position:absolute;
+left:500px;
+top:20px;
+
+
+}
+
+#navbar{
+
+background:#333333;
+height:40px;
+margin-top:0px;
+
+}
+
+#navbar span{
+
+color:white;
+font-weight:bold;
+margin-left:150px;
+font-size:1.5em;
+transition-property: color;
+transition-duration:0.20s;
+cursor:pointer;
+}
+
+#navbar span:hover{
+
+color:#3FA9F5;
+
+}
+
+#data-holder{
+position:relative;
+width:70%;
+float:left;
+margin:20px;
+margin-top:10px;
+border-color:white;;
+border-style:solid;
+border-width:2px;
+border-radius:5px;
+color:black;
+}
+
+#side-bar{
+position:relative;
+background:#333333;
+float:right;
+width:24%;
+border-radius:5px;
+}
+
+#side-bar li{
+
+margin-right:20px;
+border-radius:2px;
+font-size:1.5em;
+text-align:center;
+transition:background;
+cursor:pointer;
+}
+
+#side-bar li:hover{
+
+background:#7ac943;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+a:link {color:inherit;}      
+a:visited {color:inherit;}  
+a:hover {color:inherit;}  
+a:active {color:inherit;} 
+
+table{
+text-align:left;
+margin:auto;
+border-spacing:15px 10px;
+}
+
+#top{
+background:white;
+padding-left:5px;
+padding-right:5px;
+}
+
+#footer{
+clear:both;
+text-align:center;
+font-size:1.5em;
+color:black;
+
+}
+
+h2{
+
+position:absolute;
+color:#3fa9f5;
+font-size:1em;
+left:800px;
+top:175px;
+font-family:Euphemia,Verdana;
+
+}
